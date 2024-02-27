@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT^2P</title>
+    <link rel="icon" href="asesst/image/flask-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/asesst/css/base.css">
+    <link rel="stylesheet" href="/asesst/css/style_signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container-form" id="form-2">
+        <div class="container-form__heading">
+            <p>Logup</p>
+        </div>
+        <div class="container-form__input">
+            <div class="container-form__input--username">
+                <input id="us" type="username" placeholder="username">
+                <label class="form-message"></label>
+            </div>
+            <div class="container-form__input--password">
+                <input id="pw" type="password" placeholder="password">
+                <label class="form-message"></label>
+            </div>
+            <div class="container-form__input--comfirmPW">
+                <input id="cfpw" type="password" placeholder="Confirm password">
+                <label class="form-message"></label>
+            </div>
+            <div class="container-form__input--email">
+                <input id="em" type="email" placeholder="huydinh@gmail.com">
+                <label class="form-message"></label>
+            </div>
+        </div>
+        <div class="container-form__button">
+                <div class="container-form__button--Login">
+                    <button type="submit" id="button-logup">Logup</button>
+                </div>
+                <div class="container-form__button--Logup">
+                    <button id="link-login">Login</button>
+                </div>
+        </div>
+        
+    </div>
+    
+    <script src="/asesst/fearture-signup.js"></script>
+    <script>
+        Validator1({
+            form:'#form-2',
+            rules:[
+                Validator1.isRequired('#us'),
+                Validator1.isPassword('#pw'),
+                Validator1.comfirmPW('#cfpw',function(){
+                    return document.querySelector('#form-2 #pw').value
+                }),
+                Validator1.isEmail('#em'),
+
+            ]
+        });
+        Submit_message({
+            form:'#form-2',
+            rules:[
+                Validator1.isRequired('#us'),
+                Validator1.isPassword('#pw'),
+                Validator1.comfirmPW('#cfpw',function(){
+                    return document.querySelector('#form-2 #pw').value
+                }),
+                Validator1.isEmail('#em'),
+
+            ]
+        })
+    </script>
+</body>
+</html>

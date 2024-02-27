@@ -1,0 +1,140 @@
+{
+    "product":
+    [
+        {
+            "id": 1,
+            "img": "/asesst/image/rdn-100pct-l-ascorbic-acid-powder-20g.png",
+            "name": "The Ordinary Cream <br> L-Ascocbic Acid Powder",
+            "priceOld": 8.9,
+            "priceNew": 8.00
+
+
+        },
+
+        {
+            "id": 2,
+            "img": "/asesst/image/2010-skin-perfecting-2-bha-liquid-exfoliant-slide-1-11062020-removebg-preview.png",
+            "name": "Paula's Choice 2% BHA<br> Liquid Exfollian",
+            "priceOld": 15.00,
+            "priceNew": 13.00
+ 
+        },
+
+        {
+            "id": 3,
+            "img": "/asesst/image/2551155.png",
+            "name": "The Ordinary Toner <br> Glycolic Acid 7%",
+            "priceOld": 9.00,
+            "priceNew": 8.00
+        },
+
+        {
+            "id": 4,
+            "img": "/asesst/image/kem-chong-lao-hoa-da-obagi-retinol05-1-removebg-preview.png",
+            "name": "Obagi Retinol <br> Cream 0.5%-1%",
+            "priceOld": 17.9,
+            "priceNew": 20.00
+        },
+
+        {
+            "id": 5,
+            "img": "/asesst/image/skin-revealing-body-lotion-10-aha-210ml-min-3.png",
+            "name": "Paula's Choice Skin Reavealing <br> Body Lotion 10% AHA",
+            "priceOld": 15.00,
+            "priceNew": 14.25
+        },
+
+        
+
+        {
+            "id": 6,
+            "img": "/asesst/image/serum-the-ordinary-multi-peptide-ha-30ml.png",
+            "name": "The Ordinary Serum<br> Multi Peptide + HA",
+            "priceOld": 10,
+            "priceNew": 9
+        },
+
+        {
+            "id": 7,
+            "img": "/asesst/image/ku3-12243648-1604701286303086-removebg-preview.png",
+            "name": "The Ordinary Serum <br> 20% Niacinamide + 1% ZinC",
+            "priceOld": 8.9,
+            "priceNew": 8.00
+        },
+
+        {
+            "id": 8,
+            "img": "/asesst/image/serum-chong-nhan-la-roche-posay-retinol-b3-serum-30ml-b857bd5f49b0360695344ead960b574a.png",
+            "name": "La Roche Possay <br> Serum Retinol + B3",
+            "priceOld": 12.9,
+            "priceNew": 12
+        },
+
+        {
+            "id": 9,
+            "img": "asesst/image/dca65b7ee99922250a98b00ea7ed9af8.png_550x550.png",
+            "name": "La Roche Possay <br> Cream B5",
+            "priceOld": "",
+            "priceNew": 8.00
+        },
+
+        {
+            "id": 10,
+            "img": "/asesst/image/c5-super-boost-moisturizer-2900-L.png",
+            "name": "Paula's Choice <br> C5 Super Boost",
+            "priceOld": "",
+            "priceNew": 15
+        },
+
+        {
+            "id": 11,
+            "img": "/asesst/image/resist-barrier-repair-moisturizer-hb.png",
+            "name": "Paula's Choice <br> Resist Barrier Repair",
+            "priceOld": "",
+            "priceNew": 16.5
+        },
+
+        {
+            "id": 12,
+            "img": "/asesst/image/2551155.png",
+            "name": "The Ordinary Toner <br> AHA 7%",
+            "priceOld": "",
+            "priceNew": 12
+        },
+
+        {
+            "id": 13,
+            "img": "asesst/image/product-1639550900-tay-da-chet-body-cocoon-tu-ca-phe-1.png",
+            "name": "Cocoon Body Polish <br> Coffe Dak Lak",
+            "priceOld": 5,
+            "priceNew": 4.9
+        },
+
+        {
+            "id": 14,
+            "img": "/asesst/image/ebcf64a9816bf5264399e71d5501b4a3-removebg-preview_c5ac6ea3488e4b4d878fcaeb17c209bc_grande.png",
+            "name": "Cocoon Winter Melon <br> Dark Spot & Acne",
+            "priceOld": "",
+            "priceNew": 4.9
+        },
+
+        {
+            "id": 15,
+            "img": "/asesst/image/eyJidWNrZXQiOiJzaHVzdG9yZSIsImtleSI6IngveHVhbmhhbmhfdm4vaW1nL3AvcC80Mi8xMC8zMDQvNDIxMF8zMDRmMzk5YjU4NjA0ZDZkYmZhOGYyZTNkZjY2ODIzMi53ZWJwIn0=.png",
+            "name": "La Roche Possay <br> Anti-Shine 50+",
+            "priceOld": "",
+            "priceNew": 9.9
+        },
+
+        {
+            "id": 16,
+            "img": "asesst/image/rdn-natural-moisturizing-factors-ha-100ml_1024x1024.png",
+            "name": "The Ordinary Cream <br> Natural Moisturizing Factor + HA",
+            "priceOld": "",
+            "priceNew": 8.9
+        }
+
+
+
+    ]
+}

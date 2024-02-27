@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT^2P</title>
+    <link rel="icon" href="asesst/image/flask-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/asesst/css/base.css">
+    <link rel="stylesheet" href="/asesst/css/style_shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="app">
+    <div class="header">
+        <div class="logo" id="logo">
+            <div class="logo__ic">
+                <i class="fa-solid fa-flask" style="color: white"></i>
+            </div>
+            <div class="logo__name">
+                <p>HT^2P</p>
+            </div>
+        </div>
+        <div class="search">
+             <div class="search_icon">
+                <i  class="fa-solid fa-magnifying-glass" id="ics"></i>
+             </div>
+            <div class="search_input">
+                <input oninput="SearchProduct()" id="ips" type="text">
+            </div>
+            
+        </div>
+        <div class="cart-acc">
+            <div class="cart_icon">
+                <i class="fa-solid fa-cart-shopping" id="cart"></i>
+            </div>
+            <div class="acc_icon">
+                <i class="fa-solid fa-user" id="acc"></i>
+            </div>
+           
+        </div>
+        
+    </div>
+    
+    <div class="product" id="Pr">
+        <div class="filter">
+            <div class="filter_options">
+                <button class="button_filter">Highest-Price</button>
+                <button class="button_filter">Least-Price</button>
+                <button class="button_filter">Highest-Sale</button>
+                <button class="button_filter">Sort-Price</button>
+                <button class="button_filter">Resers-Price</button>
+            </div>
+        </div>
+        <div class="grid">
+            
+        </div>
+        
+        
+        
+    </div>
+    <div class="footer">
+
+    </div>
+   </div>
+    <script src="/asesst/fearture-Shop.js"></script>
+    <script>
+      var ElementButton=document.querySelectorAll(".button_filter") 
+      console.log(ElementButton)
+      ElementButton.forEach(function(bt){
+        bt.onclick=function(){
+            if (this.innerText=="Sort-Price")
+            {
+                sort_price()
+            } else{
+                if (this.innerText=="Resers-Price")
+                {
+                    resers_price()
+                } else {
+                    if (this.innerText=="Highest-Price")
+                    {
+                        Max_Price()
+                    } else {
+                        if (this.innerText=="Least-Price")
+                        {
+                            Min_Price()
+                        } else {
+                            Max_Sale()
+                        }
+                    }
+                }
+            }
+            actived=document.querySelector('.button_filter.active')
+            console.log(actived)
+            if (actived){
+                actived.classList.remove('active')
+            }
+            
+            this.classList.add('active')
+        
+      }
+    })
+    </script>
+</body>
+</html>

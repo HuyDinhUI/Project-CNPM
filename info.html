@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT^2P</title>
+    <link rel="icon" href="asesst/image/flask-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/asesst/css/style_info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="options">
+        <div class="container_options--info">
+            
+            <div class="name_info active">Huy Dinh</div>
+            <div class="name_info">Ngoc Tram</div>
+            <div class="name_info">Tan Phat</div>
+            <div class="name_info">Thanh Truc</div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info_intro">
+            <div class="info_intro--img">
+                <div class="text">H</div>
+                <img class="img_1" src="/asesst/image/332466097_145431271765406_6620653127917741069_n.jpg" alt="">
+                <img class="img_1" src="/asesst/image/332511871_521656936706688_587927079099706342_n.jpg" alt="">
+                <img class="img_1" src="/asesst/image/334112068_668607088287319_7320961269307760685_n.jpg" alt="">
+                <div class="text">D</div>
+            </div>
+        </div>
+        <div class="info_general">
+            <div class="info_general--img">
+                <img class="img_1" src="/asesst/image/332466097_145431271765406_6620653127917741069_n.jpg" alt="">
+            </div>
+            <div class="info_general--detail">
+                <div class="heading">General</div>
+                <div class="detail">My name is Huy, born in 2004, currently I am a first year student at the university of Idustry and Trade. I am studying at the Faculty of Information Technology, majoring in Information Security. Even though I'm pursuing technology, I'm very passionate about art, especially graphic design.</div>
+            </div>
+        </div>
+        <div class="info_skill">
+            <div class="skill_detail">
+                <div class="heading">Skill</div>
+                <div class="detail">I have both a passion for technology and a passion for art, so I regularly update current trends to design accordingly, helping the design to be both aesthetic and up to date with trends.</div>
+            </div>
+            <div class="skill-img">
+                <img class="img_2" src="/asesst/image/334112068_668607088287319_7320961269307760685_n.jpg" alt="">
+                <img class="img_3" src="/asesst/image/332511871_521656936706688_587927079099706342_n.jpg" alt="">
+                <img class="img_4" src="/asesst/image/332466097_145431271765406_6620653127917741069_n.jpg" alt="">
+            </div>
+        </div>
+        <div class="info_social">
+            <div class="button">
+                <a href="https://www.instagram.com/huy_jh?igsh=MXZxOWY1MjAxOWJwZg%3D%3D&utm_source=qr" class="link-social"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100035017985628&mibextid=2JQ9oc" class="link-social"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            
+        </div>
+    </div>
+    <script src="/asesst/feature-info.js"></script>
+    <script>
+        var ElementName=document.querySelectorAll(".name_info")
+        console.log(ElementName)
+        ElementName.forEach(function(e){
+            e.onclick=function(){
+                document.querySelector('.name_info.active').classList.remove('active')
+                this.classList.add('active')
+
+            }
+        })
+    </script>
+</body>
+</html>

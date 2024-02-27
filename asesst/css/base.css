@@ -1,0 +1,34 @@
+root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+
+*{
+    box-sizing:inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height:1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.grid{
+    width:1200px;
+    max-width: 100%;
+    
+}
+.grid__fill-width{
+    width:100%;
+}
+.grid__row{
+    display:flex;
+    flex-wrap: wrap;
+}
+body{
+    background-image: linear-gradient(to right, #98c9a3,#bfd8bd,#dde7c7);
+    background-size: cover;
+    margin: 0;
+}

@@ -1,0 +1,196 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+.container-form{
+    background-color: rgba(255, 255, 255, 0.232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    max-height: 2500px;
+    padding:70px 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    border: 3px solid white;
+    box-shadow: inset 10px 10px rgba(255, 255, 255, 0.148);
+    
+    
+}
+.container-form__heading{
+    font-size: 50px;
+    font-family: 'Concert One', sans-serif;
+    margin-bottom:30px;
+
+}
+.container-form__input{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+#us{
+    padding:10px 20px;
+    border-radius: 20px;
+    border:2px solid white;
+    background-color: white;
+
+}
+#pw{
+    padding:10px 20px;
+    border-radius: 20px;
+    border:none;
+    background-color: white;
+    margin-top: 30px;
+    border:2px solid white;
+}
+.container-form__button{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+#button-login{
+    padding:5px 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(255, 164, 146);
+    font-size: 20px;
+    color:white;
+    font-family: 'Concert One', sans-serif;
+    transition: 0.5s;
+    border:2px solid white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.126);
+    
+}
+#button-login:hover{
+    background-color:rgb(253, 145, 124) ;
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.251);
+    cursor: pointer;
+}
+.container-form__button--Logup{
+    
+
+}
+#link-logup{
+    padding:5px 13px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(255, 221, 146);
+    font-size: 20px;
+    font-family: 'Concert One', sans-serif;
+    margin-top: 10px;
+    transition: 0.5s;
+    color:white;
+    border:2px solid white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.126);
+}
+#link-logup:hover{
+    background-color:rgb(254, 211, 120) ;
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.251);
+    cursor: pointer;
+}
+.container-form__input--username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-form__input--password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.invalid{
+    color:red;
+    border-color: red;
+    
+}
+.container_sbms{
+    background-color: rgba(255, 255, 255, 0.164);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index:8;
+    backdrop-filter: blur(5px);
+}
+.form_sbms--success{
+    background-color: white;
+    max-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding:30px 40px;
+    border-radius: 20px;
+    animation: ani_error 0.5s ease-in-out;
+}
+#icon_success{
+    font-size: 60px;
+    color:rgb(48, 233, 60);
+}
+.button__success{
+    font-size: 20px;
+    padding:5px 15px;
+    background-color:rgb(48, 233, 60);
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Concert One', sans-serif;
+    margin-top:40px;
+    transition: 0.5s;
+}
+.button__success:hover{
+    background-color:rgb(45, 218, 56);
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.373);
+}
+.form_sbms--error{
+    background-color: white;
+    max-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding:30px 40px;
+    border-radius: 20px;
+    animation: ani_error 0.5s ease-in-out;
+}
+@keyframes ani_error{
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+#icon_error{
+    font-size: 60px;
+    color:rgb(233, 48, 48);
+}
+.button__error{
+    font-size: 20px;
+    padding:5px 15px;
+    background-color:rgb(233, 48, 48);
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Concert One', sans-serif;
+    margin-top:40px;
+    transition: 0.5s;
+}
+.button__error:hover{
+    background-color:rgb(218, 45, 45);
+    box-shadow: inset 2px 2px rgba(0, 0, 0, 0.373);
+}

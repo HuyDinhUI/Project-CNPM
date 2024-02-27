@@ -1,0 +1,523 @@
+.navbar{
+    background-color: rgba(255, 255, 255, 0);
+    padding:10px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Concert One', sans-serif;
+    width:90%;
+    border-radius: 50px;
+    
+
+}
+ul{
+    padding:0;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+body{
+    
+   
+}
+.nav--logo__name{
+    color:white;
+    font-size: 25px;
+    margin-left: 2px;
+    margin-top: 10px;
+    
+}
+.nav--logo{
+    display:flex;
+    align-items: center;
+}
+.nav--logo__ic{
+    font-size: 30px;
+    color:black;
+}
+.nav--feature{
+    font-size: 30px;
+    
+}
+.nav--animation{
+    transition: 0.5s;
+}
+.nav--animation:hover{
+    
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    
+    
+    
+}
+
+
+
+.nav--feature{
+    
+    transition: 0.5s;
+    color: black;
+    
+}
+.nav--feature:hover{
+    transform: rotate(90deg);
+}
+h1{
+    font-family: 'Concert One', sans-serif;
+}
+
+
+
+
+.navbar-feature{
+    
+    background-color: rgba(255, 255, 255, 0.314);
+    position:absolute;
+    backdrop-filter: blur(10px);
+    z-index: 7;
+    width:150px;
+    height: 170px;
+    right: 40px;
+    top:80px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: ani_feature 1s ease  ;
+    transition: 0.5s;
+    border:3px solid white;
+    box-shadow: 0 10px 0 0 rgba(255, 255, 255, 0.212);
+   
+}
+.navbar-feature__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-around ;
+    width: 100px;
+    height: 150px;
+    
+}
+@keyframes ani_feature{
+    from{
+        opacity: 0;
+        margin-top: 10px;
+    }
+    to{
+        opacity: 1;
+        margin-top:0px;
+    }
+}
+.style-font__navbar{
+    font-size: 15px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    transition: 0.5s;
+
+}
+.style-font__navbar:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.container-main{
+    margin-top:100px ;
+    display:flex;
+    justify-content: space-evenly;
+    height: 500px;
+    
+}
+
+.Heading{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heading_main{
+    
+    display: flex;
+    margin-top: 20px;
+    
+}
+.heading_desribe{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.heading_extra{
+    font-size: 80px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+
+}
+.heading_main--1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight:bold;
+    color:white
+}
+.heading_main--2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: lighter;
+    color:black;
+}
+.Heading{
+    display: flex;
+    flex-direction: column;
+    padding-right:70px ;
+    
+}
+
+.heading_logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight:bold;
+    color:white;
+}
+#btbn{
+    padding:10px 40px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.677);
+    background-image: linear-gradient( to bottom left, #e5ff71b1,rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    margin-top: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.163);
+    color:black;
+    font-weight: lighter;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#btbn:hover{
+    box-shadow: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.heading_button{
+    display: flex;
+    
+}
+
+.main_product{
+    width: 270px;
+    height: 370px;
+    padding:20px 20px;
+    border-radius: 150px 150px 0 0;
+    background-image: linear-gradient( to bottom left, #e5ff71b1,rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.167);
+    
+    
+    
+}
+.img_product--main{
+    width: 500px;
+    height: 500px;
+    transform: rotate(-7deg);
+    animation: float 5s ease-in-out infinite;
+    filter:drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.229));
+    
+}
+
+@keyframes float {
+	0% {
+		
+		margin-top: 0;
+	}
+	50% {
+		
+		margin-top: 70px;
+	}
+	100% {
+		
+		margin-top: 0;
+	}
+}
+
+.circle_gradient--1{
+    flex: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    animation: float 5s ease-in-out 1s infinite;
+    background-image: linear-gradient(to bottom left,#dde7c7,#e5ff71);
+}
+.circle_gradient--2{
+    flex: 3;
+    margin-top: 100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    animation: float 5s ease-in-out 1.5s infinite;
+    background-image: linear-gradient(to bottom left,#dde7c7,#e5ff71);
+}
+.circle_gradient--3{
+    flex: 5;
+    margin-bottom: 300px;
+    margin-top: 100px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    animation: float 5s ease-in-out 2s infinite;
+    background-image: linear-gradient(to bottom left,#dde7c7,#e5ff71);
+}
+
+.brand{
+    background-color: white;
+    margin-top: 50px;
+    
+}
+.brand_menu{
+    padding:50px 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    
+}
+.brand_name{
+    color:#98c9a3;
+    font-size: 30px;
+    font-family:'Anton', sans-serif;
+    display: block;
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.brand_name:hover{
+    box-shadow: inset 5px 5px rgba(0, 0, 0, 0.178);
+}
+.img_TO--1{
+    background-image: url('/asesst/image/2019-04-17-Farmers_Header-Banner-700x200.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_To--2{
+    width: 300px;
+    height: 300px;
+    
+}
+.brand_TO--logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px 0;
+
+}
+.container_info--TO{
+    display:flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    
+}
+.heading-brand{
+    font-size: 50px;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+    padding:15px 0;
+}
+.info-TO{
+    font-size: 25px;
+    line-height: 40px;
+    width: 850px;
+    padding:20px 0px;
+    text-align: justify;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.Nia{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.container_info--product__hot{
+    width: 500px;
+    height: 100px;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    border: 2px solid black;
+    padding:20px 20px 20px 90px;
+    margin-left: 100px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.216);
+    
+}
+.product_hot--general{
+
+}
+.Nia > .product_hot--ingredient::after{
+    content: url('/asesst/image/niacinamide.png');
+    position: absolute;
+    bottom: 20px;
+    right: 250px;
+    transform: scale(1.3);
+}
+.product_hot--uses{
+    margin-top: 50px;
+}
+.product_hot--ingredient{
+    margin-top: 50px;
+}
+.heading_product--hot{
+    padding:50px 0;
+    font-size: 50px;
+    font-family:'Anton', sans-serif;
+    margin-left: 100px;
+}
+.product_hot{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.product_hot--ingredient{
+    margin-top: 50px;
+}
+.HA > .product_hot--ingredient::after{
+    content: url('/asesst/image/2551164.png');
+    position: absolute;
+    bottom: 20px;
+    right: 250px;
+    transform: scale(1.3);
+}
+.HA{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.HA > .heading_product--hot{
+    margin-left: 130px;
+}
+.bn_nia{
+    padding:10px 50px;
+    background-color: white;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.229);
+    border-radius: 30px;
+    border:2px solid black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Anton', sans-serif;
+    color: black;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+.bn_nia:hover{
+    box-shadow: none;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.bn_ha{
+    padding:10px 50px;
+    background-color: white;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.229);
+    border-radius: 30px;
+    border:2px solid black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Anton', sans-serif;
+    color: black;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+.bn_ha:hover{
+    box-shadow: none;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+.brand_TO{
+    height: 1900px;
+}
+/*Paulachoice*/
+
+.brand_paulachoice{
+    background-color: rgb(247 239 229);
+    margin-top: 100px;
+}
+.brand_paula--logo{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading_ingrHot{
+    padding:50px 0 ;
+    
+}
+.name_ingrHot{
+    display: flex;
+    justify-content:space-around;
+    font-size: 30px;
+    padding-top: 50px;
+    font-family:'Anton', sans-serif ;
+    color:rgba(51, 49, 51);
+    
+}
+.ingredient{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_ingre{
+    display:flex;
+    justify-content: space-around;
+}
+.ingre_nia{
+    background-image: ;
+    
+}
+.ingre_bha{
+    background-image: url('https://paulaschoice.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/BHA-1.png.webp');
+}
+.ingre_vitaminc{
+    background-image: url('https://paulaschoice.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/VITAMINC-1.png.webp');
+}
+.ingre_peptide{
+    background-image: url('https://paulaschoice.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/PEPTIDE-1.png.webp');
+}
+.ingre_retinol{
+    background-image: url('https://paulaschoice.vn/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/10/RETINOL-1.png.webp');
+}
+
+
+
+
+
